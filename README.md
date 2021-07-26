@@ -1,4 +1,6 @@
+The project code has been compressed in MVC.zip
 # AgriculturalFinancial
+
 For CallforCode The challenge,About agricultural operations and financial operations.
 The information of financial products should be displayed in large flow apps, so as to do virtual operation, improve the financing problems of farmers and the financial process problems of upstream and downstream industries, and improve the awareness of public participation.
 Two financial products, for example：
