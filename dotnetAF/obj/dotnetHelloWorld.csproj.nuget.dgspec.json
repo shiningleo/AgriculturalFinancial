@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnethelloworld\\dotnetHelloWorld.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnethelloworld\\dotnetHelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnethelloworld\\dotnetHelloWorld.csproj",
+        "projectName": "dotnetHelloWorld",
+        "projectPath": "C:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnethelloworld\\dotnetHelloWorld.csproj",
+        "packagesPath": "C:\\Users\\NDC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnethelloworld\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\NuGet.Config",
+          "C:\\Users\\NDC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
