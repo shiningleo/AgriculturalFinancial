@@ -1,0 +1,109 @@
+@page
+<html xmlns ="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv ="Content-Type" content="text/html; charset=gb2312" />
+
+<script type="text/javascript">
+function checkpro()
+{
+//alert(1)
+
+if (document.getElementById("a").checked==true)
+{
+document.getElementById("b").checked=false;
+document.getElementById("c").checked=false;
+}
+
+
+}
+
+function checkpro1()
+{
+if (document.getElementById("b").checked==true)
+{
+document.getElementById("a").checked=false;
+document.getElementById("c").checked=false;
+}
+
+}
+function checkpro2()
+{
+if (document.getElementById("c").checked==true)
+{
+document.getElementById("a").checked=false;
+document.getElementById("b").checked=false;
+}
+
+}
+function cancelpro(){
+     document.getElementById("a").checked=false;
+   document.getElementById("b").checked=false;
+document.getElementById("c").checked=false; 
+}
+
+function chanpinpro(){
+ var a= document.getElementById('a').checked;
+ var b= document.getElementById('b').checked;
+ var c= document.getElementById('c').checked;
+ if(a==true)
+ {
+
+   window.location.href="/Home/chanpinshuoming1"; 
+ }
+ if(b==true)
+ {
+   //@RedirectToAction("chanpinshuoming", "Home", new { item = 2 });
+
+   window.location.href="/Home/chanpinshuoming2"; 
+ }
+ if(c==true)
+ {
+
+   window.location.href="/Home/chanpinshuoming3"; 
+ }
+return false; 
+
+}
+
+function back()
+{
+   window.location.href="/Home/nongchang"; 
+
+ }
+
+
+
+
+</script>
+</head>
+<body>
+<div background="~/images/酒庄内部3.jpg">
+  <div margin-top="100px" >
+        <img src="~/images/chanpin1.JPG" width="98" height="84" float="left" margin-left="200px" />
+        <img src="~/images/chanpin2.JPG" width="98" height="84" float="right" margin-left="200px" />
+        <img src="~/images/chanpin3.JPG" width="98" height="84" float="right" margin-left="200px" />
+    </div>
+  <div margin-top="100px">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <p><input  id="a" type="checkbox" name="a" value="" onclick="checkpro();">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input id="b" type="checkbox" name="b" value="ON"onclick="checkpro1();">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input id="c" type="checkbox" name="c" value="ON" onclick="checkpro2();"></p>
+  </div>
+    <div>&nbsp;</div>
+ <div margin-top="100px">
+        <img src="~/images/chanpin4.JPG" width="98" height="84" float="left" margin-left="200px" />
+        <img src="~/images/chanpin6.JPG" width="98" height="84" float="right" margin-left="200px" />
+        <img title="Business bible"  src="~/images/jinying.JPG" width="98" height="84" float="right" margin-left="200px" />
+    </div>
+     <input type="button" value="determine"  onclick="chanpinpro();">&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="button" value="cancel"  onclick="cancelpro();">&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="button" value="back"  onclick="back();">
+
+</div>
+</body>

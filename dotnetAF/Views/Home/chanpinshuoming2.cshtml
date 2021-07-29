@@ -1,0 +1,47 @@
+<html xmlns ="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv ="Content-Type" content="text/html; charset=gb2312" />
+
+<script type="text/javascript">
+ var thisURL = document.URL;    
+  var  getval =thisURL.split('?')[1];  
+  var showval= getval.split("=")[1];  
+  function  showvalf(){  
+     alert(showval);  
+     document.getElementById('ee').value=showval;  
+  }  
+//
+function chanpinok(i)
+{
+ var item=i;
+ if(item=='ok')
+ {
+
+   window.location.href="/Home/nongchang"; 
+ }
+ if(item=='no')
+ {
+  
+
+   window.location.href="/Home/chanpin"; 
+ }
+}
+
+</script>
+</head>
+ <!--<body onload="showvalf()">
+ <input type="text"  id ="ee" hidden="true"  />  
+ </body> 
+  -->
+<div>
+   48% into the shareholders, do trusteeship, 
+   4.2% annual growth, every month to complete the task of 2888 grapes, 
+   38000 grapes for a bottle, 568 days to redeem(principal and interest).
+   
+</div> 
+   <input type="button" value="agree"  onclick="chanpinok('ok');">
+   &nbsp;&nbsp;
+   <input type="button" value="cancel"  onclick="chanpinok('no');">
+ 
+ 
+</html>

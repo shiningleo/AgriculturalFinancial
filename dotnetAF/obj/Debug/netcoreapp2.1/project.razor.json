@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnetHelloWorld\\dotnetHelloWorld.csproj",
+  "FilePath": "d:\\ningxia\\github\\AgriculturalFinancial\\dotnetAF\\dotnetHelloWorld.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -1818,33 +1818,33 @@
   "RootNamespace": "dotnetHelloWorld",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnetHelloWorld\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnetHelloWorld\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\ningxia\\github\\AgriculturalFinancial\\dotnetAF\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnetHelloWorld\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\ningxia\\github\\AgriculturalFinancial\\dotnetAF\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnetHelloWorld\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnetHelloWorld\\Views\\Home\\nongchang.cshtml",
+      "FilePath": "d:\\ningxia\\github\\AgriculturalFinancial\\dotnetAF\\Views\\Home\\nongchang.cshtml",
       "TargetPath": "Views\\Home\\nongchang.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\NDC\\Documents\\NXia\\NongYeJinRong-master\\src\\dotnetHelloWorld\\Views\\Shared\\Error.cshtml",
+      "FilePath": "d:\\ningxia\\github\\AgriculturalFinancial\\dotnetAF\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ningxia\\github\\AgriculturalFinancial\\dotnetAF\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ningxia\\github\\AgriculturalFinancial\\dotnetAF\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

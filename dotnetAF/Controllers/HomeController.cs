@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 namespace dotnetHelloWorld.Controllers
 {
@@ -9,7 +9,7 @@ namespace dotnetHelloWorld.Controllers
         {
             return View();
         }
-
+        
         public IActionResult nongchang()
         {
              ViewData["tuiguang"] = "97";
@@ -17,6 +17,37 @@ namespace dotnetHelloWorld.Controllers
              ViewData["tongshu"] = "5000";
             return View();
         }
+         public IActionResult chanpin()
+        {
+           
+            return View();
+        }
+         public IActionResult chanpinshuoming1()
+        {
+           
+            return View();
+        }
+           public IActionResult chanpinshuoming2()
+        {
+           
+            return View();
+        }
+            public IActionResult chanpinshuoming3()
+        {
+           
+            return View();
+        }
         
+            public IActionResult xuanchuan()
+        {
+           
+            return View();
+        }
+              public IActionResult pinjianhuodong()
+        {
+           
+            return View();
+        }
+
     }
 }

@@ -1,0 +1,46 @@
+<html xmlns ="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv ="Content-Type" content="text/html; charset=gb2312" />
+
+<script type="text/javascript">
+ var thisURL = document.URL;    
+  var  getval =thisURL.split('?')[1];  
+  var showval= getval.split("=")[1];  
+  function  showvalf(){  
+     alert(showval);  
+     document.getElementById('ee').value=showval;  
+  }  
+//
+function chanpinok(i)
+{
+ var item=i;
+ if(item=='ok')
+ {
+
+   window.location.href="/Home/nongchang"; 
+ }
+ if(item=='no')
+ {
+  
+
+   window.location.href="/Home/chanpin"; 
+ }
+}
+
+</script>
+</head>
+ <!--<body onload="showvalf()">
+ <input type="text"  id ="ee" hidden="true"  />  
+ </body> 
+  -->
+<div>
+    20000 RMB/Virtual winery 6% annual increase, 
+    complete the task every month 5000 grapes, 
+    58000 grapes for a bottle, 588 days to redeem (principal and interest). 
+    Development award 28888, other irrelevant.
+   
+</div> 
+   <input type="button" value="agree"  onclick="chanpinok('ok');">
+   &nbsp;&nbsp;
+   <input type="button" value="cancel"  onclick="chanpinok('no');">
+</html>

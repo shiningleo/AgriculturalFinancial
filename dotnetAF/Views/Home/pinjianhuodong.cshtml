@@ -1,0 +1,40 @@
+<html xmlns ="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv ="Content-Type" content="text/html; charset=gb2312" />
+
+<script type="text/javascript">
+
+//
+function chanpinok(i)
+{
+ var item=i;
+ if(item=='ok')
+ {
+
+   window.location.href="https://us.trip.com/?locale=en_US"; 
+ }
+ if(item=='no')
+ {
+  
+
+   window.location.href="/Home/nongchang"; 
+ }
+}
+
+</script>
+</head>
+ <div margin-top="100px" >
+        <img src="~/images/品酒.JPG" width="98" height="84" float="left" margin-left="200px" />
+      
+ </div>
+<div>
+ 1， Invite partners to regularly participate in winery activities and cultural salon activities such as free wine tasting and western food.
+ 2， Distant customers to invite short-term travel, sightseeing, etc
+   
+</div> 
+   <input type="button" value="agree"  onclick="chanpinok('ok');">
+   &nbsp;&nbsp;
+   <input type="button" value="cancel"  onclick="chanpinok('no');">
+ 
+ 
+</html>

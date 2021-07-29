@@ -1,0 +1,50 @@
+<html xmlns ="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv ="Content-Type" content="text/html; charset=gb2312" />
+
+<script type="text/javascript">
+ var thisURL = document.URL;    
+  var  getval =thisURL.split('?')[1];  
+  var showval= getval.split("=")[1];  
+  function  showvalf(){  
+     alert(showval);  
+     document.getElementById('ee').value=showval;  
+  }  
+//
+function back()
+{
+
+
+
+   window.location.href="/Home/nongchang"; 
+
+  
+
+
+ }
+
+
+</script>
+</head>
+ <!--<body onload="showvalf()">
+ <input type="text"  id ="ee" hidden="true"  />  
+ </body> 
+  -->
+<div>
+ <div margin-top="100px" >
+        <img src="~/images/喇叭.JPG" width="98" height="84" float="left" margin-left="200px" />
+      
+ </div>
+ <div>
+   <a href="https://www.youtube.com">youtube</a>
+   <a href="https://www.douyin.com/">tiktok</a>
+   <a href="https://www.kuaishou.com/">kuaishou</a>
+   
+ </div>
+   
+</div> 
+ 
+   <input type="button" value="back"  onclick="back();">
+ 
+ 
+</html>
