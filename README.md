@@ -1,4 +1,5 @@
-The project code has been compressed in MVC.zip
+The project code has been compressed in dotnetAF
+Simple demonstration:https://youtu.be/eHVPuhv9zbQ
 # AgriculturalFinancial
 
 For CallforCode The challenge,About agricultural operations and financial operations.
@@ -7,3 +8,4 @@ Two financial products, for example：
 1： 20000 RMB/Virtual winery 6% annual increase, complete the task every month 5000 grapes, 58000 grapes for a bottle, 588 days to redeem (principal and interest). Development award 28888, other irrelevant.
 2： 48% into the shareholders, do trusteeship, 4.2% annual growth, every month to complete the task of 2888 grapes, 38000 grapes for a bottle, 568 days to redeem(principal and interest).
 Demo URL：https://nongyejinrong.us-south.cf.appdomain.cloud/
+user_name:admin
