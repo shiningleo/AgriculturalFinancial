@@ -48,6 +48,11 @@ namespace dotnetHelloWorld.Controllers
            
             return View();
         }
+		       public IActionResult chateau()
+        {
+           
+            return View();
+        }
 
     }
 }

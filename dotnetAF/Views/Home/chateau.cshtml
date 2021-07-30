@@ -1,0 +1,49 @@
+<html xmlns ="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv ="Content-Type" content="text/html; charset=gb2312" />
+
+<script type="text/javascript">
+
+//
+function chanpinok(i)
+{
+ var item=i;
+ if(item=='hb')
+ {
+
+   window.location.href="/Home/xuanchuan"; 
+ }
+ if(item=='y')
+ {
+  
+
+   window.location.href="/Home/pinjianhuodong"; 
+ }
+}
+
+</script>
+</head>
+ <div margin-top="100px" >
+        <img src="~/images/酒庄内部3.jpg" width="98" height="84" float="left" margin-left="200px" />
+      
+ </div>
+<div>
+ Total wine inventory: 50 barrels, finished wine: 3000 bottles, red wine: 1000, white wine: 1500, rose wine: 500
+ Indoor temperature: 26 degrees, indoor humidity: moderate, land water: normal, land environment: appropriate dry, temperature: 28 degrees
+   
+</div> 
+ <div margin-top="100px" >
+        <img src="~/images/putaofenxi.JPG" width="98" height="84" float="left" margin-left="200px" />
+      
+ </div>
+<div>
+   Profit: 20,000 RMB / month, number of grapes: 50,000 trees, Rewards: 56 bottles of wine ,Power consumption: 1000 amps,Organic fertilizer: 5 tons
+</div>
+   <img title="环保行动" href="" src="~/images/huanbao.JPG" width="40" height="35">
+   <input title="Promote environmental protection" type="button" value="Environmental protection"  onclick="chanpinok('hb');">
+   &nbsp;&nbsp;
+   <input type="button" value="Low carbon to visit"  onclick="chanpinok('y');">
+   <a href="/Home/chanpin">purchase a product </a>
+ 
+ 
+</html>
