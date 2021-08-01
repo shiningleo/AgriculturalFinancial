@@ -9,3 +9,4 @@ Two financial products, for example：
 2： 48% into the shareholders, do trusteeship, 4.2% annual growth, every month to complete the task of 2888 grapes, 38000 grapes for a bottle, 568 days to redeem(principal and interest).
 Demo URL：https://nongyejinrong.us-south.cf.appdomain.cloud/
 user_name:admin
+need to  Current angel investment: $ 3 million
