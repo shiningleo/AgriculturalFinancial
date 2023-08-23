@@ -10,3 +10,7 @@ Two financial products, for example：
 Demo URL：https://nongyejinrong.us-south.cf.appdomain.cloud/
 user_name:admin
 need to  Current angel investment: $ 3 million
+
+Excel assisted analysis tool:
+![image](https://github.com/shiningleo/AgriculturalFinancial/assets/17536336/5fe7d7e6-a4bc-4638-99b2-92001f7b31f1)
+
