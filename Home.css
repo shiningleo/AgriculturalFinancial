@@ -1,0 +1,147 @@
+﻿/* 特定于页面的样式 */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 40px; /* 底部 = 页脚高度 */
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.padding {
+    padding: 15px;
+}
+
+#notification-popup.MessageBanner {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    height: inherit;
+    min-width: inherit;
+}
+
+#notification-popup .MessageBanner-text {
+    margin: 0;
+    padding: 18px 15px;
+    min-width: inherit;
+}
+
+/* new */
+
+
+a {
+    text-decoration: none;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-right: 15px;
+}
+
+.nav a {
+    background-color: white;
+}
+
+    .nav a.hover {
+        background-color: #3366cc;
+    }
+
+/*  .nav_con div:first-child ~ div {
+            display: none;
+        }*/
+
+.nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*    .nav_con {
+            margin-bottom: 50px;
+        }*/
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-group {
+    margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.dropdown-item {
+    padding: 8px 20px;
+}
+
+    .dropdown-item.active, .dropdown-item:active {
+        background-color: #007bff;
+        color: #fff;
+    }
+/*下拉框*/
+.combox-container {
+    position: relative;
+    width: 200px;
+}
+
+.combox-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.combox-list-container {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+    .combox-list-container li {
+        padding: 8px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+        .combox-list-container li:hover {
+            background-color: #f0f0f0;
+        }
+
+section.samples {
+    margin-top: 20px;
+}
+
+    section.samples .ms-Button, section.setup .ms-Button {
+        display: block;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        min-width: 80px;
+    }
