@@ -13,4 +13,5 @@ need to  Current angel investment: $ 3 million
 
 Excel assisted analysis tool:
 ![image](https://github.com/shiningleo/AgriculturalFinancial/assets/17536336/5fe7d7e6-a4bc-4638-99b2-92001f7b31f1)
-
+Conduct intuitive trading based on a satellite perspective of industrial layout：
+![image](https://github.com/shiningleo/AgriculturalFinancial/assets/17536336/410c06d8-e432-4579-a965-85e899e62564)
