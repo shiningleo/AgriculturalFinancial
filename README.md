@@ -17,3 +17,5 @@ Conduct intuitive trading based on a satellite perspective of industrial layoutï
 ![image](https://github.com/shiningleo/AgriculturalFinancial/assets/17536336/410c06d8-e432-4579-a965-85e899e62564)
 In the future, we will also have such data remote sensing satellite systems to support this project
 https://www.planet.com/industries/insurance/
+Using AI to generate report analysis, strategies, etc
+
